@@ -7,6 +7,7 @@ public class Main{
         int a = Integer.parseInt(st.nextToken());
         int b = Integer.parseInt(st.nextToken());
         StringBuilder sb = new StringBuilder();
+        sb.append(a + b).append('\n');
         sb.append(a - b).append('\n');
         sb.append(a * b).append('\n');
         sb.append(a / b).append('\n');
